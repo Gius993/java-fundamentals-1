@@ -21,10 +21,11 @@ public class SondaggioEsercizio {
 		double linuxPercentuale = (numeroStudentilinux /(double) numeroTotale) * 100 ;
 		double macPercentuale = (numeroStudentiMac /(double) numeroTotale) * 100;
 		
-		System.out.println("Percentuale studenti windows = " + windwsPercentuale + "%" );
-		System.out.println("Percentuale studenti linux = " + linuxPercentuale + "%");
-		System.out.println("Percentuale studenti mac = " + macPercentuale + "%");
+		System.out.println("Percentuale studenti windows = " + (int)windwsPercentuale + "%" );
+		System.out.println("Percentuale studenti linux = " + (int)linuxPercentuale + "%");
+		System.out.println("Percentuale studenti mac = " + (int)macPercentuale + "%");
 		in.close();			
 		
 	}
 }
+
