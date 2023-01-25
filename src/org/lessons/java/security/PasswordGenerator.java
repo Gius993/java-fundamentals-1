@@ -13,8 +13,12 @@ public class PasswordGenerator {
 		String lastNameUtent = in.nextLine();
 		System.out.print("inserisci il tuo colore ");
 		String bestMyColor = in.nextLine();
-		System.out.print("inserisci la tua data ");
+		System.out.print("inserisci il tuo anno ");
 		int ageDate = in.nextInt();
+		System.out.print("inserisci il tuo mese ");
+		int mounthDate = in.nextInt();
+		System.out.print("inserisci il tuo giorno ");
+		int dayDate = in.nextInt();
 		
 		in.close();
 		
