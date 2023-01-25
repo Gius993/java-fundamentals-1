@@ -5,5 +5,5 @@
  * @author giuse
  *
  */
-module javaPasswordGenerator {
+module sondaggioEsercizio {
 }
