@@ -13,9 +13,9 @@ public class CalcolaBiglietto {
 		double scontoMinorenni = prezzoBiglietto * 0.2;
 		double scontoAnziani = prezzoBiglietto * 0.4;
 		if(anniUtente < 18) {
-			System.out.print("il tuo prezzo : " + scontoMinorenni);
+			System.out.print("il tuo prezzo : " + (prezzoBiglietto - scontoMinorenni));
 		}else if(anniUtente > 65) {
-			System.out.print("il tuo prezzo : " + scontoAnziani);
+			System.out.print("il tuo prezzo : " + (prezzoBiglietto - scontoAnziani));
 		}else {
 			System.out.print("il tuo prezzo : " + prezzoBiglietto);
 		}
@@ -23,3 +23,4 @@ public class CalcolaBiglietto {
 	}
 
 }
+
